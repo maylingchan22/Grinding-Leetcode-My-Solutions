@@ -15,5 +15,3 @@ class Solution:
                 visited.add(node)
                 node = node.next
         return None
-    
-        
