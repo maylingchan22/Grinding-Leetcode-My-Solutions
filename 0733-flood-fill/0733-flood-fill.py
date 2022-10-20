@@ -1,6 +1,6 @@
 class Solution:
     def floodFill(self, image: List[List[int]], sr: int, sc: int, color: int) -> List[List[int]]:
-        R, C = len(image), len(image[0])
+        R, C = len(image), len(image[0]) 
         current_color = image[sr][sc]
         if current_color == color:
             return image
@@ -18,3 +18,5 @@ class Solution:
         dfs(sr, sc)
         return image
         
+           
+    
