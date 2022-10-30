@@ -6,7 +6,7 @@ class Solution:
             arr[s[idx]] += 1
             largestCount = max(largestCount, arr[s[idx]])
             if maxlen - largestCount >= k:
-                arr[s[idx - maxlen]] -= 1
+                arr[s[idx-maxlen]] -= 1
             else:
                 maxlen += 1
         return maxlen
