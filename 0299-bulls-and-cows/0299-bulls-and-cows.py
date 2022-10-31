@@ -11,4 +11,3 @@ class Solution:
                     cows += int(h[ch] > 0)
                 h[ch] -= 1
         return "{}A{}B".format(bulls, cows)
-    
