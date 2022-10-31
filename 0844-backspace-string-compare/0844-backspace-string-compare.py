@@ -9,4 +9,4 @@ class Solution:
                     skip -= 1
                 else:
                     yield x
-        return all(x == y for x, y in itertools.zip_longest(F(s),F(t)))
+        return all(x == y for x, y in itertools.zip_longest(F(s), F(t)))
